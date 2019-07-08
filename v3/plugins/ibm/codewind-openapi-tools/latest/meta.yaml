@@ -1,18 +1,18 @@
 apiVersion: v2
 publisher: ibm 
-name: codewind-openapi-tools
+name: codewind-openapi
 version: latest 
 type: VS Code extension
 displayName: Codewind OpenAPI Tools
 title: Codewind OpenAPI Tools
 description: Create API clients, server stubs, and HTML documentation from OpenAPI Specifications
 icon: https://www.eclipse.org/codewind/images/header-logo.svg 
-repository: https://github.com/eclipse/codewind-vscode
+repository: https://github.com/eclipse/codewind-openapi-vscode
 category: Other
 firstPublicationDate: '2019-06-26'
 spec:
   containers:
-  - image: eclipse/codewind-openapi-tools-0.2.0:next
-    name: codewind-openapi-tools
+  - image: eclipse/codewind-openapi-tools-0.2.0:latest
+    name: codewind-openapi
   extensions:
-  - http://download.eclipse.org/codewind/codewind-openapi-vscode/master/4/codewind-openapi-tools-0.2.0_2019-06-28-1524.vsix
+  - https://github.com/keithchong/registry/blob/master/codewind-openapi-tools-0.2.0_2019-06-28-1524.vsix
