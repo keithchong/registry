@@ -1,22 +1,22 @@
 [
 {
-  "id": "ibm/codewind-openapi-tools/latest",
+  "id": "ibm/codewind-openapi/latest",
   "displayName":"Codewind OpenAPI Tools",
   "version":"latest",
   "type":"VS Code extension",
-  "name":"codewind-openapi-tools",
+  "name":"codewind-openapi",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
-  "links": {"self":"/keithchong/registry/master/v3/plugins/ibm/codewind-openapi-tools/latest/meta.yaml" }
+  "links": {"self":"/keithchong/registry/master/v3/plugins/ibm/codewind-openapi/latest/meta.yaml" }
 }
 ,{
-  "id": "ibm/codewind-openapi-tools/0.2.0",
+  "id": "ibm/codewind-openapi/0.2.0",
   "displayName":"Codewind OpenAPI Tools",
   "version":"0.2.0",
   "type":"VS Code extension",
-  "name":"codewind-openapi-tools",
+  "name":"codewind-openapi",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
-  "links": {"self":"/keithchong/registry/master/v3/plugins/ibm/codewind-openapi-tools/0.2.0/meta.yaml" }
+  "links": {"self":"/keithchong/registry/master/v3/plugins/ibm/codewind-openapi/0.2.0/meta.yaml" }
 }
 ]
