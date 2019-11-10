@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: ibm 
 name: codewind-openapi
-version: 0.2.0 
+version: 0.6.0 
 type: VS Code extension
 displayName: Codewind OpenAPI Tools
 title: Codewind OpenAPI Tools
@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: '2019-06-26'
 spec:
   containers:
-  - image: eclipse/codewind-openapi-tools-0.2.0:v0.2.0
+  - image: eclipse/codewind-openapi-tools-0.6.0:v0.6.0
     name: codewind-openapi
   extensions:
-  - http://download.eclipse.org/codewind/codewind-openapi-vscode/master/4/codewind-openapi-tools-0.2.0_2019-06-28-1524.vsix
+  - https://download.eclipse.org/codewind/codewind-openapi-vscode/0.6.0/latest/codewind-openapi-tools.vsix
