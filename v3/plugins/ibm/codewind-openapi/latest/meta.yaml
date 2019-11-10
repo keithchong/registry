@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: '2019-06-26'
 spec:
   containers:
-  - image: keithchong/codewind-openapi-server
+  - image: eclipse/codewind-openapi-tools-latest:latest
     name: codewind-openapi
   extensions:
-  - https://github.com/keithchong/registry/raw/master/codewind-openapi-tools-0.2.1_2019-07-11-1259.vsix
+  - https://download.eclipse.org/codewind/codewind-openapi-vscode/master/latest/codewind-openapi-tools.vsix
