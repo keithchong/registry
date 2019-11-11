@@ -5,11 +5,19 @@ version: latest
 type: VS Code extension
 displayName: Codewind OpenAPI Tools
 title: Codewind OpenAPI Tools
-description: Create API clients, server stubs, and HTML documentation from OpenAPI Specifications
+description: Create API clients, server stubs, and HTML documentation from OpenAPI definitions
 icon: https://www.eclipse.org/codewind/images/header-logo.svg
 repository: https://github.com/eclipse/codewind-openapi-vscode
 category: Other
 firstPublicationDate: '2019-06-26'
 spec:
+  containers:
+  - image: keithchong/codewind-openapi-tools
+    name: codewind-openapi-tools
+    volumes:
+      - mountPath: "/plugins"
+        name: plugins
+      - mountPath: "/projects"
+        name: projects
   extensions:
   - https://download.eclipse.org/codewind/codewind-openapi-vscode/master/latest/codewind-openapi-tools.vsix
