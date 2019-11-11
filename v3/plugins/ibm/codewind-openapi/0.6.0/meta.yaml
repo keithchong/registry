@@ -12,7 +12,8 @@ category: Other
 firstPublicationDate: '2019-06-26'
 spec:
   containers:
-  - image: keithchong/codewind-openapi-tools:0.6.0
+  - image: "keithchong/codewind-openapi-tools:0.6.0"
     name: codewind-openapi-tools
+    memoryLimit: "256Mi"
   extensions:
   - https://download.eclipse.org/codewind/codewind-openapi-vscode/0.6.0/latest/codewind-openapi-tools.vsix
