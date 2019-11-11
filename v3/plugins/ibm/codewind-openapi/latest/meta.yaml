@@ -14,10 +14,5 @@ spec:
   containers:
   - image: keithchong/codewind-openapi-tools
     name: codewind-openapi-tools
-    volumes:
-      - mountPath: "/plugins"
-        name: plugins
-      - mountPath: "/projects"
-        name: projects
   extensions:
   - https://download.eclipse.org/codewind/codewind-openapi-vscode/master/latest/codewind-openapi-tools.vsix
