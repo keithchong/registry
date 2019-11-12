@@ -1,20 +1,20 @@
 [
 {
-  "id": "eclipse/codewind-openapi/latest",
+  "id": "keithchong/codewind-openapi-tools/latest",
   "displayName":"Codewind OpenAPI Tools",
   "version":"latest",
   "type":"VS Code extension",
-  "name":"codewind-openapi",
+  "name":"codewind-openapi-tools",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
   "links": {"self":"/keithchong/registry/master/v3/plugins/eclipse/codewind-openapi/latest/meta.yaml" }
 }
 ,{
-  "id": "eclipse/codewind-openapi/0.6.0",
+  "id": "keithchong/codewind-openapi-tools/0.6.0",
   "displayName":"Codewind OpenAPI Tools",
   "version":"0.6.0",
   "type":"VS Code extension",
-  "name":"codewind-openapi",
+  "name":"codewind-openapi-tools",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
   "links": {"self":"/keithchong/registry/master/v3/plugins/eclipse/codewind-openapi/0.6.0/meta.yaml" }

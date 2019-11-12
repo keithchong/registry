@@ -1,6 +1,6 @@
 apiVersion: v2
-publisher: eclipse 
-name: codewind-openapi
+publisher: keithchong 
+name: codewind-openapi-tools
 version: latest 
 type: VS Code extension
 displayName: Codewind OpenAPI Tools
@@ -15,5 +15,6 @@ spec:
   containers:
   - image: "keithchong/codewind-openapi-tools:latest"
     name: codewind-openapi-tools
+    memoryLimit: "1500Mi"
   extensions:
   - https://download.eclipse.org/codewind/codewind-openapi-vscode/master/latest/codewind-openapi-tools.vsix
