@@ -7,7 +7,7 @@
   "name":"codewind-openapi-tools",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
-  "links": {"self":"/keithchong/registry/master/v3/plugins/eclipse/codewind-openapi/latest/meta.yaml" }
+  "links": {"self":"/keithchong/registry/master/v3/plugins/keithchong/codewind-openapi/latest/meta.yaml" }
 }
 ,{
   "id": "keithchong/codewind-openapi-tools/0.6.0",
@@ -17,6 +17,6 @@
   "name":"codewind-openapi-tools",
   "description":"Create API clients, server stubs, and HTML documentation from OpenAPI Specifications",
   "publisher":"ibm",
-  "links": {"self":"/keithchong/registry/master/v3/plugins/eclipse/codewind-openapi/0.6.0/meta.yaml" }
+  "links": {"self":"/keithchong/registry/master/v3/plugins/keithchong/codewind-openapi/0.6.0/meta.yaml" }
 }
 ]
