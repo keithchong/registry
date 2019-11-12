@@ -1,6 +1,6 @@
 [
 {
-  "id": "ibm/codewind-openapi/latest",
+  "id": "eclipse/codewind-openapi/latest",
   "displayName":"Codewind OpenAPI Tools",
   "version":"latest",
   "type":"VS Code extension",
@@ -10,7 +10,7 @@
   "links": {"self":"/keithchong/registry/master/v3/plugins/eclipse/codewind-openapi/latest/meta.yaml" }
 }
 ,{
-  "id": "ibm/codewind-openapi/0.6.0",
+  "id": "eclipse/codewind-openapi/0.6.0",
   "displayName":"Codewind OpenAPI Tools",
   "version":"0.6.0",
   "type":"VS Code extension",
