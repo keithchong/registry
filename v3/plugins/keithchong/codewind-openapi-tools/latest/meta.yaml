@@ -16,5 +16,8 @@ spec:
   - image: "keithchong/codewind-openapi-tools:latest"
     name: codewind-openapi-tools
     memoryLimit: "1500Mi"
+    volumes:
+      - mountPath: "/home/theia/.m2"
+        name: m2
   extensions:
   - https://download.eclipse.org/codewind/codewind-openapi-vscode/master/latest/codewind-openapi-tools.vsix
