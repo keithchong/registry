@@ -1,6 +1,6 @@
 apiVersion: v2
-publisher: Eclipse 
-name: Codewind OpenAPI Tools
+publisher: eclipse 
+name: codewind-openapi
 version: 0.6.0 
 type: VS Code extension
 displayName: Codewind OpenAPI Tools
