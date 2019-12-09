@@ -12,12 +12,5 @@ category: Other
 firstPublicationDate: '2019-11-11'
 latestUpdateDate: '2019-11-11'
 spec:
-  containers:
-  - image: "keithchong/codewind-openapi-tools:0.6.0"
-    name: codewind-openapi-tools
-    memoryLimit: "1500Mi"
-    volumes:
-      - mountPath: "/home/theia/.m2"
-        name: m2
   extensions:
   - https://github.com/keithchong/registry/raw/master/codewind-openapi-tools-0.6.1.vsix
