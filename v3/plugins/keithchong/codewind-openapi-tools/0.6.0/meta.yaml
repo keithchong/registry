@@ -12,5 +12,9 @@ category: Other
 firstPublicationDate: '2019-11-11'
 latestUpdateDate: '2019-11-11'
 spec:
+  containers:
+    - image: adoptopenjdk/openjdk8
+      name: openjdk8
+      memoryLimit: "1500Mi"
   extensions:
   - https://github.com/keithchong/registry/raw/master/codewind-openapi-tools-0.6.1.vsix
