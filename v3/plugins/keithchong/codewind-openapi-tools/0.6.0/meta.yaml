@@ -13,7 +13,8 @@ firstPublicationDate: '2019-11-11'
 latestUpdateDate: '2019-11-11'
 spec:
   containers:
-    - image: eclipse/che-theia-endpoint-runtime:next
-      name: openapitools
+    - image: eclipse/che-remote-plugin-runner-java8
+      name: oastools
+      memoryLimit: "1500Mi"
   extensions:
   - https://github.com/keithchong/registry/raw/master/codewind-openapi-tools-0.6.1.vsix
